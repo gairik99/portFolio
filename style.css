@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container #pic {
+  height: 100%;
+  width: 60%;
+}
+
+header {
+  background-color: #cce3de;
+}
+
+main {
+  background-color: #adacb5;
+  font-size: large;
+  color: rgba(0, 0, 0, 0.703);
+  font-weight: 600;
+}
+
+nav img {
+  height: 50px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.git2 {
+  height: 80px;
+  width: 80px;
+}
+main hr {
+  width: 70vw;
+  height: 10px;
+  background-color: black;
+}
+
+main section {
+  width: 95%;
+  margin: 20px auto; /* Ensure this is not being overridden */
+  padding: 30px;
+  background-color: #edede9;
+  color: black;
+}
