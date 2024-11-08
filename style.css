@@ -6,40 +6,194 @@
 
 .container #pic {
   height: 100%;
-  width: 60%;
+  width: 100%;
 }
 
 header {
-  background-color: #cce3de;
+  background-color: #0077b6;
 }
 
 main {
-  background-color: #adacb5;
+  background-color: #0077b6;
   font-size: large;
   color: rgba(0, 0, 0, 0.703);
   font-weight: 600;
+  overflow: hidden;
 }
 
-nav img {
+/* .navbar img {
   height: 50px;
   width: auto;
   margin: 0 auto;
+} */
+.navbar {
+  width: 25vw;
+  margin: auto;
+  background-color: #edede9;
+  border-radius: 1rem;
+  font-weight: 600;
+}
+#des {
+  background-color: #edede9;
+  border-radius: 1rem;
+}
+.rounded1 {
+  border-radius: 1rem;
 }
 
 .git2 {
   height: 80px;
   width: 80px;
 }
-main hr {
-  width: 70vw;
-  height: 10px;
+hr {
   background-color: black;
 }
 
 main section {
   width: 95%;
-  margin: 20px auto; /* Ensure this is not being overridden */
+  margin: 2rem auto; /* Ensure this is not being overridden */
   padding: 30px;
   background-color: #edede9;
   color: black;
+  border-radius: 1rem;
+}
+
+.language {
+  height: 8rem;
+  width: 8rem;
+  margin: 2rem auto;
+}
+.lan-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.project2,
+.project1 {
+  position: relative;
+}
+.project-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.project-img.visible {
+  opacity: 1;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutToLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideOutToRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.img1-container {
+  height: 650px; /* Set appropriate height */
+  width: 100%; /* Set width to fit the container */
+  position: relative;
+  overflow: hidden; /* Ensure images do not overflow the container */
+  z-index: 20;
+}
+.img2-container {
+  height: 650px;
+  width: 100%;
+  position: relative;
+  overflow: hidden; /* Ensure images do not overflow the container */
+  z-index: 20;
+}
+.left1,
+.right1 {
+  position: absolute;
+  top: 64%;
+  transform: translateY(-50%);
+  padding-top: 5px;
+  border: none;
+  border-radius: 40%;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.left1 {
+  left: 15%;
+}
+.right1 {
+  right: 15%;
+}
+
+.left2,
+.right2 {
+  position: absolute;
+  top: 64%;
+  transform: translateY(-50%);
+  padding-top: 5px;
+  border: none;
+  border-radius: 40%;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.left2 {
+  left: 15%;
+}
+
+.right2 {
+  right: 15%;
+}
+
+button span.material-symbols-outlined {
+  font-size: 24px;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  background-color: #0077b6;
+  height: 200px;
+  overflow: hidden;
+}
+.footer-container {
+  width: 95%;
+  /* margin: 2rem auto; Ensure this is not being overridden */
+  margin: 0px auto 10px auto;
+  padding: 30px;
+  background-color: #edede9;
+  color: black;
+  border-radius: 1rem;
+  font-weight: 700;
 }
