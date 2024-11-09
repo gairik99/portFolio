@@ -136,7 +136,7 @@ main section {
 .left1,
 .right1 {
   position: absolute;
-  top: 64%;
+  top: 80%;
   transform: translateY(-50%);
   padding-top: 5px;
   border: none;
@@ -157,7 +157,7 @@ main section {
 .left2,
 .right2 {
   position: absolute;
-  top: 64%;
+  top: 80%;
   transform: translateY(-50%);
   padding-top: 5px;
   border: none;
