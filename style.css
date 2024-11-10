@@ -120,14 +120,14 @@ main section {
   }
 }
 .img1-container {
-  height: 600px; /* Set appropriate height */
+  height: 90vh; /* Set appropriate height */
   width: 90%; /* Set width to fit the container */
   position: relative;
   overflow: hidden; /* Ensure images do not overflow the container */
   z-index: 20;
 }
 .img2-container {
-  height: 600px;
+  height: 90vh;
   width: 90%;
   position: relative;
   overflow: hidden; /* Ensure images do not overflow the container */
@@ -136,7 +136,7 @@ main section {
 .left1,
 .right1 {
   position: absolute;
-  top: 80%;
+  top: 54%;
   transform: translateY(-50%);
   padding-top: 5px;
   border: none;
@@ -148,16 +148,16 @@ main section {
 }
 
 .left1 {
-  left: 5%;
+  left: 0.5%;
 }
 .right1 {
-  right: 4%;
+  right: 0%;
 }
 
 .left2,
 .right2 {
   position: absolute;
-  top: 80%;
+  top: 54%;
   transform: translateY(-50%);
   padding-top: 5px;
   border: none;
@@ -169,11 +169,11 @@ main section {
 }
 
 .left2 {
-  left: 5%;
+  left: 0.5%;
 }
 
 .right2 {
-  right: 4%;
+  right: 0%;
 }
 
 button span.material-symbols-outlined {
